@@ -1,4 +1,4 @@
-							 **Selenium Framework Practice Repository**
+					 **Selenium Framework Practice Repository**
 
 
 Welcome to the Selenium Framework Practice Repository! This repository is designed to help you gain hands-on experience with Selenium and related frameworks.
