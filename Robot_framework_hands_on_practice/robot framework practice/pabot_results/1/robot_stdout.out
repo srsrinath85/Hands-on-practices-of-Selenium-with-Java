@@ -1,0 +1,22 @@
+==============================================================================
+Demo7                                                                         
+==============================================================================
+Check email                                                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\robot framework practice\practice6\demo7.robot:42
+    T:  Check email    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\robot framework practice\practice6\demo7.robot:43
+      get the email id in the child window    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\robot framework practice\practice6\demo7.robot:16
+      Get Text    css:.red
+______________________________________________________________________________
+| FAIL |
+Element with locator 'css:.red' not found.
+------------------------------------------------------------------------------
+Demo7                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  D:\robot framework practice\pabot_results\1\output.xml

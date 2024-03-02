@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20231027 16:48:23.914" rpa="false" schemaversion="3">
+<suite id="s1" name="Demo Jen" source="D:\seperate\robot framework practice\RF_Automation_Jenkins\demo_jen.robot">
+<test id="s1-t1" name="opening web application" line="17">
+<kw name="opening application">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231027 16:48:24.267" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<msg timestamp="20231027 16:48:28.325" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20231027 16:48:28.325" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 118.0.5993.118 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00ABA813+48355]
+	(No symbol) [0x00A4C4B1]
+	(No symbol) [0x00955358]
+	(No symbol) [0x009761AC]
+	(No symbol) [0x00971EF3]
+	(No symbol) [0x00970579]
+	(No symbol) [0x009A0C55]
+	(No symbol) [0x009A093C]
+	(No symbol) [0x0099A536]
+	(No symbol) [0x009782DC]
+	(No symbol) [0x009793DD]
+	GetHandleVerifier [0x00D1AABD+2539405]
+	GetHandleVerifier [0x00D5A78F+2800735]
+	GetHandleVerifier [0x00D5456C+2775612]
+	GetHandleVerifier [0x00B451E0+616112]
+	(No symbol) [0x00A55F8C]
+	(No symbol) [0x00A52328]
+	(No symbol) [0x00A5240B]
+	(No symbol) [0x00A44FF7]
+	BaseThreadInitThunk [0x76A3FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47C3E+238]
+</msg>
+<status status="FAIL" starttime="20231027 16:48:24.267" endtime="20231027 16:48:28.325"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20231027 16:48:28.325" endtime="20231027 16:48:28.325"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231027 16:48:28.340" endtime="20231027 16:48:28.341"/>
+</kw>
+<status status="FAIL" starttime="20231027 16:48:24.266" endtime="20231027 16:48:28.341"/>
+</kw>
+<kw name="Fill login form">
+<status status="NOT RUN" starttime="20231027 16:48:28.351" endtime="20231027 16:48:28.351"/>
+</kw>
+<status status="FAIL" starttime="20231027 16:48:24.263" endtime="20231027 16:48:28.361">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 118.0.5993.118 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00ABA813+48355]
+	(No symbol) [0x00A4C4B1]
+	(No symbol) [0x00955358]
+	(No symbol) [0x009761AC]
+	(No symbol) [0x00971EF3]
+	(No symbol) [0x00970579]
+	(No symbol) [0x009A0C55]
+	(No symbol) [0x009A093C]
+	(No symbol) [0x0099A536]
+	(No symbol) [0x009782DC]
+	(No symbol) [0x009793DD]
+	GetHandleVerifier [0x00D1AABD+2539405]
+	GetHandleVerifier [0x00D5A78F+2800735]
+	GetHandleVerifier [0x00D5456C+2775612]
+	GetHandleVerifier [0x00B451E0+616112]
+	(No symbol) [0x00A55F8C]
+	(No symbol) [0x00A52328]
+	(No symbol) [0x00A5240B]
+	(No symbol) [0x00A44FF7]
+	BaseThreadInitThunk [0x76A3FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47C3E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20231027 16:48:23.916" endtime="20231027 16:48:28.388"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Demo Jen">Demo Jen</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

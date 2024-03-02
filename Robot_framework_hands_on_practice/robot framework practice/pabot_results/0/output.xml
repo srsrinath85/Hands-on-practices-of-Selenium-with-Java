@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230328 14:56:24.821" rpa="false" schemaversion="3">
+<suite id="s1" name="Demo7" source="D:\robot framework practice\practice6\demo7.robot">
+<test id="s1-t1" name="validate window handles functionality" line="37">
+<kw name="opening application in different browser" library="resource21" type="SETUP">
+<arg>edge</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browsername}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230328 14:56:25.090" level="INFO">Opening browser 'edge' to base url 'https://rahulshettyacademy.com/loginpagePractise/'.</msg>
+<status status="PASS" starttime="20230328 14:56:25.089" endtime="20230328 14:56:30.318"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230328 14:56:30.318" endtime="20230328 14:56:30.473"/>
+</kw>
+<status status="PASS" starttime="20230328 14:56:25.089" endtime="20230328 14:56:30.473"/>
+</kw>
+<kw name="select the link of child window">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230328 14:56:30.475" level="INFO">Clicking element 'xpath = //*[@class='blinkingText']'.</msg>
+<status status="PASS" starttime="20230328 14:56:30.474" endtime="20230328 14:56:30.587"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230328 14:56:40.589" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230328 14:56:30.587" endtime="20230328 14:56:40.590"/>
+</kw>
+<status status="PASS" starttime="20230328 14:56:30.474" endtime="20230328 14:56:40.590"/>
+</kw>
+<kw name="verify the user is switched to child window">
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>NEW</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20230328 14:56:40.594" endtime="20230328 14:56:40.632"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>css:h1</arg>
+<arg>DOCUMENTS REQUEST</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20230328 14:56:40.633" level="INFO">Verifying element 'css:h1' contains exact text 'DOCUMENTS REQUEST'.</msg>
+<status status="PASS" starttime="20230328 14:56:40.632" endtime="20230328 14:56:40.656"/>
+</kw>
+<status status="PASS" starttime="20230328 14:56:40.591" endtime="20230328 14:56:40.656"/>
+</kw>
+<status status="PASS" starttime="20230328 14:56:25.088" endtime="20230328 14:56:40.656"/>
+</test>
+<status status="PASS" starttime="20230328 14:56:24.831" endtime="20230328 14:56:40.657"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Demo7">Demo7</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

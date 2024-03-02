@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile="C:\Users\Admin\Desktop\New folder\Automation_Framework-0.0.3.jar" -DgroupId=com.ActionMethods -DartifactId=Framework -Dversion=0.0.3 -Dpackaging=jar

@@ -1,0 +1,6 @@
+datasources:0bccae63b887925b6beb832511a35f30391fad00
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:7f813a01fa2e42c93a2343397acb785bc37bf938
+--test Demo7.validate window handles functionality
+--test Demo7.Check email
